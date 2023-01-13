@@ -49,14 +49,14 @@
       </div>
     </div>
   </div>
-
 </template>
-
 <script>
+
 export default {
   name: "Header",
   data() {
     return {
+      showDiv: false,
       activeLang: this.$i18n.locale,
       scrolled: false
     }

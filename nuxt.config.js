@@ -46,7 +46,8 @@ export default {
     '@nuxtjs/pwa',
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
-    'nuxt-i18n'
+    'nuxt-i18n',
+
   ],
   i18n: {
     defaultLocale: 'fr',

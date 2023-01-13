@@ -1,0 +1,26 @@
+{
+  "lang": "fr",
+  "test": "test-fr",
+  "menuOverlay": [
+    {
+      "name": "L'agence",
+      "soustitre": "A propos de nous",
+      "lien": "#"
+    },
+    {
+      "name": "Clients",
+      "soustitre": "ce que nous faisons",
+      "lien": "#"
+    },
+    {
+      "name": "Jobs",
+      "soustitre": "Rejoignez nus",
+      "lien": "#"
+    },
+    {
+      "name": "Contact",
+      "soustitre": "Rencontrons nous",
+      "lien": "#"
+    }
+  ]
+}
