@@ -2,19 +2,19 @@
   "slider": [
     {
       "client": "AïnIfranechezvous.ma",
-      "titre": "VOUS N’AUREZ PLUS\nJAMAIS SOIF",
+      "titre": "YOU WILL NEVER\nBE THIRSTY AGAIN",
       "lien": "#",
       "image": "images/banniereainifrane.jpg"
     },
     {
       "client": "SoCity",
-      "titre": "SOLIBRA AU PLUS PROCHE\nDE SES CONSOMMATEURS",
+      "titre": "SOLIBRA CLOSER\nTO ITS CONSUMERS",
       "lien": "#",
       "image": "images/bannieresocity.jpg"
     },
     {
       "client": "STÄRK",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "titre": "THE LOCAL\nINTERNATIONAL BEER",
       "lien": "#",
       "image": "images/bannierestark.jpg"
     }
