@@ -1,0 +1,40 @@
+{
+  "numerodeTelephone": "+225 27 21 59 42 28",
+  "ilsnousfontconfiance": "Ils nous font confiance",
+  "footercontacts": "CONTACTEZ NOUS",
+  "villegeolocalisation": "ABIDJAN",
+  "geolocalisation": "ZONE 3, RUE DES CARROSSIERS\n01 BP 1608 ABIDJAN 01 \n +225 27 21 59 42 28s \n",
+  "contactsblocs1name": "JÉRÉMIE DE CLERCQ New Businesses",
+  "contactsblocs1mail": "mailto:jeremie.declercq@bigfivesolutions.com",
+  "contactsblocs1adressestrong": "PARIS",
+  "contactsblocs1adresse": "RUE D'ANJOU \n75008 PARIS \n+33 1 75 51 70 40",
+  "contactsblocs2name": "ASSITA SAVANE Dévelopement",
+  "contactsblocs2mail": "mailo:assita@bigfiveabidjan.com",
+  "contactsblocs2adressestrong": "CAPE TOWN",
+  "contactsblocs2adresse": "FLOOR 2, 70 NEW CHURCH STREET,\nGARDENS, CAPE TOWN, 8001\n+27 021 832 0860",
+  "instagram": "https://www.instagram.com/bigfiveparis",
+  "facebook": "http://facebook.com/BigFiveParis",
+  "linkedin": "https://www.linkedin.com/in/bigfiveparis/",
+  "menuOverlay": [
+    {
+      "name": "L'agence",
+      "soustitre": "A propos de nous",
+      "lien": "#"
+    },
+    {
+      "name": "Clients",
+      "soustitre": "ce que nous faisons",
+      "lien": "#"
+    },
+    {
+      "name": "Jobs",
+      "soustitre": "Rejoignez nus",
+      "lien": "#"
+    },
+    {
+      "name": "Contact",
+      "soustitre": "Rencontrons nous",
+      "lien": "#"
+    }
+  ]
+}
