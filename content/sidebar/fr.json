@@ -5,7 +5,7 @@
     {
       "name": "L'agence",
       "soustitre": "A propos de nous",
-      "lien": "#"
+      "lien": "agence"
     },
     {
       "name": "Clients",
@@ -14,7 +14,7 @@
     },
     {
       "name": "Jobs",
-      "soustitre": "Rejoignez nus",
+      "soustitre": "Rejoignez nous",
       "lien": "#"
     },
     {

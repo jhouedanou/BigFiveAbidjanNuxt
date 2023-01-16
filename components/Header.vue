@@ -54,7 +54,7 @@
                       </div> -->
         <ul id="menu">
           <li v-for="(item, index) in filteredSidebar[0].menuOverlay" :key="index">
-            <NuxtLink :to="item.lien">
+            <NuxtLink  @click.native="toggleSidebar" :to="item.lien">
               {{ item.name }}<br>
               <span>{{ item.soustitre }}</span>
             </NuxtLink>

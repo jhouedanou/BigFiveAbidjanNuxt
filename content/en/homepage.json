@@ -22,12 +22,13 @@
   "slogan": "Laissez votre empreinte",
   "soustitre": "Brand content / Digital / Communication",
   "quisommesnous": "Nous sommes une agence de communication intégrée. Nous aidons nos clients à se différencier, grâce à des solutions créatives, technologiques, évolutives et sur-mesure.",
-  "useCase": [
+    "qsnBtn": "About us",
+  "caseStudies": [
     {
-      "client": "",
+      "client": "Saint avé",
       "pays": "",
       "lien": "",
-      "image": ""
+      "image": "images/caseStudies/stave/stave.jpg"
     },
     {
       "client": "",
