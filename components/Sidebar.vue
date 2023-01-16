@@ -1,8 +1,8 @@
 
 <template>
-  <div id="pageOverlay" v-if="overlay">
+  <div id="pageOverlay" v-if="showSidebar">
     <div id="innerOverly">
-      <!--  <div v-for="(bar, index) in filteredSidebar" :key="index">
+      <button id="menu" @click="toggleSidebar"><img src="~/assets/img/btnclose.svg" alt=""></button>   <!--  <div v-for="(bar, index) in filteredSidebar" :key="index">
       {{ bar.test }}
     </div> -->
       <ul id="menu">
@@ -32,19 +32,17 @@
 export default {
   name: 'SideBar',
   data() {
-    return { sidebar: {} ,overlay:false}
+    return { sidebar: {}, showSidebar:true}
   },
   async fetch() {
-    this.sidebar = await this.$content('sidebar', this.params).fetch()
+    this.sidebar = await this.$content('sidebar', this.params).fetch();
+    console.log(this.sidebar);
   },
+
   computed: {
     filteredSidebar() {
       return this.sidebar.filter(sidebar => sidebar.lang === this.$i18n.locale)
     }
   }
-
 }
 </script>
-<style scoped>
-
-</style>
