@@ -26,7 +26,7 @@
   "clientTitre":"Clients",
   "caseStudies": [
     {
-      "client": "Saint avé",
+      "client": "SAINT-AVÉ",
       "pays": "Côte d'Ivoire",
       "lien": "#",
       "image": "images/caseStudies/stave/stave.jpg"
@@ -44,7 +44,7 @@
       "image": "images/caseStudies/AInifrane/ainifrane.jpg"
     },
     {
-      "client": "Saint avé",
+      "client": "VIRTUS FOOTBALL",
       "pays": "Côte d'Ivoire",
       "lien": "#",
       "image": "images/caseStudies/Virtus/virtusfootball.jpg"

@@ -23,26 +23,28 @@
         <div class="col col-md-6 col-sm-12" v-for="client in homepage.caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="client.lien">
-              <img :src="client.image" alt="Agence de développement web à Abidjan">
-              <h3>{{ client.client }}</h3>
+              <img :src="client.image" class="img-fluid wabehi" alt="Agence de développement web à Abidjan">
+              <h4>{{ client.client }}</h4>
               <p>{{ client.pays }}</p>
             </NuxtLink>
           </div>
-
         </div>
-        <NuxtLink class="lelink" to="">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink id="aragon" class="lelink" to="">{{ homepage.useCaseBtn }}</NuxtLink>
       </div>
     </div>
     <div id="contentwrapper3">
       <div class="container">
-      <h3 class="titre">{{ homepage.loffretitre }}</h3>
+        <h3 class="titre">{{ homepage.loffretitre }}</h3>
         <div class="row">
-          <div class="col-md-3 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
-          <img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan">
+          <div class="dev col-md-4 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
+
+            <div class="imgewrapper">
+              <img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan"/>
+            </div>
             <h4>{{ offreDetails.Titre }}</h4>
             <ul>
               <li v-for="details in offreDetails.Menu" :key="details">
-              {{ details }}</li>
+                {{ details }}</li>
             </ul>
           </div>
         </div>
@@ -51,9 +53,14 @@
     </div>
     <div id="contentwrapper4">
       <h3>{{ homepage.ilsnousConfiance }}</h3>
-      <li class="logoclen" v-for="logo in homepage.logosClients" :key="logo.id">
-      <img class="img-fluid" :src="logo" alt="">
-      </li>
+      <div id="capelo">
+        <div id="innard">
+          <div class="logoclen" v-for="logo in homepage.logosClients" :key="logo.id">
+            <img class="img-fluid" :src="logo" alt="">
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </template>
