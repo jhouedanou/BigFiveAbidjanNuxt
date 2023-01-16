@@ -53,6 +53,7 @@
 </template>
 <script>
 export default {
+  layout:'content',
   async asyncData({ $content, params, app, error }) {
     const homepage = await $content(app.i18n.locale, "homepage", params.slug)
       .fetch()
