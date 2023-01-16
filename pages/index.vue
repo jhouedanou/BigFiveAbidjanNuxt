@@ -18,6 +18,7 @@
       </ul>
     </div>
     <div id="contentwrapper2" class="container">
+      <h3 class="titre">{{ homepage.clientTitre }}</h3>
       <div class="row">
         <div class="col col-md-6 col-sm-12" v-for="client in homepage.caseStudies" :key="client.id">
           <div class="innerbox">
@@ -34,7 +35,7 @@
     </div>
     <div id="contentwrapper3">
       <div class="container">
-      <h3>{{ homepage.loffretitre }}</h3>
+      <h3 class="titre">{{ homepage.loffretitre }}</h3>
         <div class="row">
           <div class="col-md-3 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
           <img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan">

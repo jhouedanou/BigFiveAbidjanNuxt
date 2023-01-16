@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{413:function(n,t,e){"use strict";e.r(t);var c={__name:"contacts",setup:function(n){return{__sfc:!0}}},o=e(55),component=Object(o.a)(c,(function(){var n=this,t=n._self._c;n._self._setupProxy;return t("h1",[n._v("Contact")])}),[],!1,null,"1e1ecb6b",null);t.default=component.exports}}]);
