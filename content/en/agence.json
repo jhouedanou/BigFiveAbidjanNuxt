@@ -1,26 +1,28 @@
 {
-  "titrepage": "L'agence",
-  "presentation": "Nous sommes présents sur les continents Africain et Européen. Nous sommes capables d'intervenir dans de nombreux pays pour accompagner nos clients locaux et/ou internationaux, de la réflexion stratégique et commerciale à la production et à la diffusion de contenus, pour atteindre et fidéliser leur audience et les aider à développer leur business.",
-  "payscouverts": "Pays couverts : France, Côte d’Ivoire, Afrique du sud, République Démocratique du Congo, République du Congo, Mali, Sénégal, Guinée Conakry, Burkina Faso, Cameroun, Gabon, Angola, Ethiopie, Malawi, Madagascar, Maroc, Algérie…",
-  "offre": "L'offre",
+  "titrepage": "The agency",
+  "presentation": "We are present on the African and European continents. We are able to operate in many countries to support our local and/or international clients, from strategic and commercial thinking to the production and dissemination of content, in order to reach and retain their audience and help them develop their business.",
+  "payscouverts": "Covered countries: France, Côte d'Ivoire, South Africa, Democratic Republic of Congo, Republic of Congo, Mali, Senegal, Guinea Conakry, Burkina Faso, Cameroon, Gabon, Angola, Ethiopia, Malawi, Madagascar, Morocco, Algeria...",
+  "offre": "The offer",
   "offreContenu": [
     {
       "titre": "Brand Content",
-      "contenu": "Créer l'interactivité avec son audience, savoir l'écouter, la comprendre, l'analyser pour pouvoir la surprendre et la fidéliser.",
-      "souscontenu": "Architecture de marque, analyse des tendances, stratégie de marque, brand content",
+      "contenu": "Create interaction with the audience, know how to listen to it, understand it, analyze it in order to surprise and retain it.",
+      "souscontenu": "Brand architecture, trend analysis, brand strategy, brand content",
       "illustration": "images/coeur.gif"
     },
     {
       "titre": "Digital",
-      "contenu": "Construire la présence et la visibilité des marques sur les réseaux sociaux et tous les outils du numérique (site web, applicatif) et les accompagner dans l’usage et l’analyse.",
-      "souscontenu": "Stratégie Social média, E-commerce, Campagnes digitales, Formations & Coaching, SEO/SEA",
-      "illustration": "images/communication.gif"
+      "contenu": "Build the presence and visibility of brands on social networks and all digital tools (website, application) and support them in their use and analysis.",
+      "souscontenu": "Social media strategy, E-commerce, Digital campaigns, Training & Coaching, SEO/SEA",
+      "illustration": "images/digital.gif"
     },
     {
       "titre": "Brand Content",
-      "contenu": "Assurer le lien entre la marque et son public en imaginant des codes perennes et des stratégies de communication créatives et ciblées.",
-      "souscontenu": "Identité graphique, Campagnes TV/print, Édition, Packaging",
-      "illustration": "images/digital.gif"
+      "contenu": "Ensure the link between the brand and its public by imagining perennial codes and creative and targeted communication strategies.",
+      "souscontenu": "Graphic identity, TV/print campaigns, Edition, Packaging",
+      "illustration": "images/communication.gif"
     }
-  ]
+  ],
+  "lequipe": "The team",
+  "sousequipe": "Two continents, three cities, three countries;\na multicultural and experienced team."
 }

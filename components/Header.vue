@@ -2,7 +2,6 @@
   <div>
     <!-- header -->
     <div id="header" :class="{ 'bgchange': scrolled }">
-      <div class="container">
         <button id="menuBtn" @click="toggleSidebar"><img src="~/assets/img/btnopen.svg" alt=""></button>
         <!-- logo -->
         <div id="logo">
@@ -43,8 +42,6 @@
 
           </div>
         </div>
-      </div>
-
     </div>
     <!-- fadetransition -->
     <transition name="fade">

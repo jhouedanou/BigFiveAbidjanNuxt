@@ -1,5 +1,5 @@
 {
-  "menuswitchlabel":"EN",
+  "menuswitchlabel": "EN",
   "numerodeTelephone": "+225 27 21 59 42 28",
   "ilsnousfontconfiance": "They trusted us",
   "footercontacts": "Contact us",
@@ -16,6 +16,8 @@
   "instagram": "https://www.instagram.com/bigfiveparis",
   "facebook": "http://facebook.com/BigFiveParis",
   "linkedin": "https://www.linkedin.com/in/bigfiveparis/",
-  "credits":"©BIGFIVE SOLUTIONS ALL RIGHTS RESERVED.",
-  "villes":"PARIS  /  ABIDJAN  /  CAPE TOWN"
+  "credits": "©BIGFIVE SOLUTIONS ALL RIGHTS RESERVED.",
+  "villes": "PARIS  /  ABIDJAN  /  CAPE TOWN",
+  "contactlabel": "contact",
+  "laisseznousunmessage": "Leave a message"
 }

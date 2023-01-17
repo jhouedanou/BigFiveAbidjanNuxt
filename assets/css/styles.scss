@@ -755,3 +755,48 @@ body {
     white-space:break-spaces;
   }
 }
+#prefooter{
+  background:#EFEFEF;
+  height:250px;
+  display: flex;align-items:center;justify-content: center;flex-direction: column;
+  h4{
+        word-wrap: break-word;
+        font-feature-settings: 'liga';
+        text-rendering: auto;
+        visibility: visible;
+        letter-spacing: 2px;
+        line-height: 33px;
+        font-size: 25px;
+        font-family: open-sans, sans-serif;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+        font-weight: 700;
+        margin-bottom: 1em;
+  }
+  a{
+    width:240px;
+    height:70px;
+    display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border:1px #d1d1d1 solid;
+      color:black;
+        word-wrap: break-word;
+        font-feature-settings: 'liga';
+        text-rendering: auto;
+        font-style: normal;
+        text-align: center;
+        letter-spacing: 1px;
+        font-family: brandon-grotesque, sans-serif;
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 15px;
+        text-transform: uppercase;
+        &:hover{
+          background:black;
+          color:white;
+        }
+  }
+}
