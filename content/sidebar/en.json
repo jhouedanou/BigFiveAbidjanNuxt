@@ -3,12 +3,12 @@
   "test": "test-en",
   "menuOverlay": [
     {
-      "name": "L'agence",
+      "name": "The Agency",
       "soustitre": "About us ",
       "lien": "agence"
     },
     {
-      "name": "Clients",
+      "name": "Our Clients",
       "soustitre": "Our work",
       "lien": "#"
     },

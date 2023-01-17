@@ -65,6 +65,20 @@ export default {
 
   ],
   pwa: {
+    meta: {
+      title: 'Big Five Abidjan | Agence web à Abidjan',
+      author: 'Big Five Abidjan',
+      ogType:'website',
+      ogSiteName:"Big Five Abidjan",
+      ogDescription:"Agence webmarketing à Abidjan",
+
+
+    },
+    manifest: {
+      name: 'Big Five Abidjan',
+      short_name: 'Big Five Abidjan',
+      lang: 'fr',
+    },
     icon: {
       /* icon options */
     },
