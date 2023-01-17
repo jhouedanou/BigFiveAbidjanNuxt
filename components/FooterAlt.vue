@@ -1,9 +1,4 @@
 <template>
-  <div>
-    <div id="prefooter">
-      <h4>{{ $t('laisseznousunmessage') }}</h4>
-      <NuxtLink to="contacts">{{ $t('contactlabel') }}</NuxtLink>
-    </div>
     <div id="footer">
       <div class="container d-flex flex-row justify-space-between align-items-center">
         <div class="col-md-4 d-flex justify-content-center flex-column">
@@ -37,10 +32,9 @@
         </div>
       </div>
     </div>
-  </div>
 </template>
 <script>
 export default {
-  name: "Footer"
+  name: "FooterAlt"
 }
 </script>

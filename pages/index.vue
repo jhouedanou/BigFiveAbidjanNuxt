@@ -23,7 +23,7 @@
         <div class="col col-md-6 col-sm-12" v-for="client in homepage.caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="client.lien">
-              <img :src="client.image" class="img-fluid wabehi" alt="Agence de développement web à Abidjan">
+              <img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan">
               <h4>{{ client.client }}</h4>
               <p>{{ client.pays }}</p>
             </NuxtLink>

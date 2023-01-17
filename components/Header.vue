@@ -2,46 +2,56 @@
   <div>
     <!-- header -->
     <div id="header" :class="{ 'bgchange': scrolled }">
-        <button id="menuBtn" @click="toggleSidebar"><img src="~/assets/img/btnopen.svg" alt=""></button>
-        <!-- logo -->
-        <div id="logo">
-          <nuxt-link v-if="$i18n.locale == 'en'" to="/en">
-            <span href="https://bigfiveabidjan.com" class="d-flex align-items-center">
-              <img src="~/assets/img/logobigfive.png" class="img-fluid" />
-            </span>
-          </nuxt-link>
-          <nuxt-link v-if="$i18n.locale == 'fr'" to="/">
-            <span href="https://bigfiveabidjan.com" class="d-flex align-items-center">
-              <img src="~/assets/img/logobigfive.png" class="img-fluid" />
-            </span>
-          </nuxt-link>
+      <div class="row">
+        <div class="maiga col-md-5 d-flex justify-content-start align-items-center">
+          <button id="menuBtn" @click="toggleSidebar"><img src="~/assets/img/btnopen.svg" alt=""></button>
         </div>
-        <!-- contacts et telephone -->
-        <div id="phonewrapper">
-          <div class="d-flex align-items-center flex-row justify-content-end">
-            <div id="slector">
-              {{ $t('numerodeTelephone') }}
-              <div id="lswitcher">
-                <div id="langselector">
-                  <nuxt-link :to="switchLocalePath('en')">
-                    EN
-                  </nuxt-link>
-                  /
-                  <nuxt-link :to="switchLocalePath('fr')">
-                    FR
-                  </nuxt-link>
-                </div>
-              </div>
-            </div>
-            <NuxtLink v-if="$i18n.locale == 'en'" to="en/contacts">
-              <img src="~/assets/img/enveloppeblc.png" alt="">
-            </NuxtLink>
-            <NuxtLink v-if="$i18n.locale == 'fr'" to="contacts">
-              <img src="~/assets/img/enveloppeblc.png" alt="">
-            </NuxtLink>
-
+          <!-- logo -->
+        <div class="maiga col-md-2 d-flex justify-content-center align-items-center">
+          <div id="logo">
+            <nuxt-link v-if="$i18n.locale == 'en'" to="/en">
+              <span href="https://bigfiveabidjan.com" class="d-flex align-items-center">
+                <img src="~/assets/img/logobigfive.png" class="img-fluid" />
+              </span>
+            </nuxt-link>
+            <nuxt-link v-if="$i18n.locale == 'fr'" to="/">
+              <span href="https://bigfiveabidjan.com" class="d-flex align-items-center">
+                <img src="~/assets/img/logobigfive.png" class="img-fluid" />
+              </span>
+            </nuxt-link>
           </div>
         </div>
+        <div class="maiga col-md-5 d-flex justify-content-end align-items-center">
+                  <!-- contacts et telephone -->
+                  <div id="phonewrapper">
+                    <div class="d-flex align-items-center flex-row justify-content-end">
+                      <div id="slector">
+                        {{ $t('numerodeTelephone') }}
+                        <div id="lswitcher">
+                          <div id="langselector">
+                            <nuxt-link :to="switchLocalePath('en')">
+                              EN
+                            </nuxt-link>
+                            /
+                            <nuxt-link :to="switchLocalePath('fr')">
+                              FR
+                            </nuxt-link>
+                          </div>
+                        </div>
+                      </div>
+                      <NuxtLink v-if="$i18n.locale == 'en'" to="en/contacts">
+                        <img src="~/assets/img/enveloppeblc.png" alt="">
+                      </NuxtLink>
+                      <NuxtLink v-if="$i18n.locale == 'fr'" to="contacts">
+                        <img src="~/assets/img/enveloppeblc.png" alt="">
+                      </NuxtLink>
+
+                    </div>
+                  </div>
+        </div>
+      </div>
+
+
     </div>
     <!-- fadetransition -->
     <transition name="fade">

@@ -15,12 +15,12 @@
     {
       "name": "Jobs",
       "soustitre": "Rejoignez nous",
-      "lien": "#"
+      "lien": "jobs"
     },
     {
       "name": "Contact",
       "soustitre": "Rencontrons nous",
-      "lien": "#"
+      "lien": "contacts"
     }
   ]
 }

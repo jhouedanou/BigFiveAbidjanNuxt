@@ -1,0 +1,9 @@
+{
+  "titrepage": "CONTACT",
+  "soustitre": "Rencontrons-nous !",
+  "champNom":"votre nom",
+  "champEmail":"votre email",
+  "champSociete":"votre société",
+  "champMessage":"votre message",
+  "btnEnvoyer":"Envoyer"
+}

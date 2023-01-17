@@ -15,12 +15,12 @@
     {
       "name": "Jobs",
       "soustitre": "We want you",
-      "lien": "#"
+      "lien": "jobs"
     },
     {
       "name": "Contact",
       "soustitre": "Let's meet",
-      "lien": "#"
+      "lien": "contacts"
     }
   ]
 }
