@@ -19,63 +19,85 @@
       "image": "images/bannierestark.jpg"
     }
   ],
-  "slogan": "Laissez votre empreinte",
+  "slogan": "Leave a mark",
   "soustitre": "Brand content / Digital / Communication",
-  "quisommesnous": "Nous sommes une agence de communication intégrée. Nous aidons nos clients à se différencier, grâce à des solutions créatives, technologiques, évolutives et sur-mesure.",
+  "quisommesnous": "We are an integrated communication agency. We help our clients stand out through creative, technological, evolving, and tailor-made solutions.",
   "qsnBtn": "About us",
   "clientTitre": "Clients",
   "caseStudies": [
     {
-      "client": "Saint avé",
-      "pays": "",
-      "lien": "",
+      "client": "SAINT-AVÉ",
+      "pays": "Côte d'Ivoire",
+      "lien": "#",
       "image": "images/caseStudies/stave/stave.jpg"
     },
     {
-      "client": "",
-      "pays": "",
-      "lien": "",
-      "image": ""
+      "client": "SoCITY",
+      "pays": "Côte d'Ivoire",
+      "lien": "#",
+      "image": "images/caseStudies/Socity/socity.jpg"
     },
     {
-      "client": "",
-      "pays": "",
-      "lien": "",
-      "image": ""
+      "client": "AÏNIFRANE",
+      "pays": "Maroc",
+      "lien": "#",
+      "image": "images/caseStudies/AInifrane/ainifrane.jpg"
     },
     {
-      "client": "",
-      "pays": "",
-      "lien": "",
-      "image": ""
+      "client": "VIRTUS FOOTBALL",
+      "pays": "Côte d'Ivoire",
+      "lien": "#",
+      "image": "images/caseStudies/Virtus/virtusfootball.jpg"
     }
   ],
-  "useCaseBtn": "tous les projets",
-  "loffretitre": "L'offre",
-  "brandingTitre": "Branding",
-  "brandingIcone": "~/assets/img/coeur.gif",
-  "brandingMenu": [
-    "Architecture de marque",
-    "Analyse des tendances",
-    "Stratégie de marque",
-    "Brand content"
+  "useCaseBtn": "Our projects",
+  "loffretitre": "Our offer",
+  "offreBigFive": [
+    {
+      "Titre": "Branding",
+      "Icone": "images/coeur.gif",
+      "Menu": [
+        "Brand architecture",
+        "Trend analysis",
+        "Brand strategy",
+        "Brand content"
+      ]
+    },
+    {
+      "Titre": "Digital",
+      "Icone": "images/digital.gif",
+      "Menu": [
+        "Websites",
+        "E-commerce sites",
+        "Social media",
+        "Training & Coaching",
+        "SEO/SEA"
+      ]
+    },
+    {
+      "Titre": "Communication",
+      "Icone": "images/communication.gif",
+      "Menu": [
+        "Logo/Graphic identity",
+        "Campaigns",
+        "Publishing",
+        "Packaging"
+      ]
+    }
   ],
-  "DigitalTitre": "Digital",
-  "DigitalIcone": "~/assets/img/digital.gif",
-  "DigitalMenu": [
-    "Sites web",
-    "Sites E-commerce",
-    "Social média",
-    "Formations & Coaching",
-    "SEO/SEA"
-  ],
-  "CommunicationTitre": "Communication",
-  "CommunicationIcone": "~/assets/img/communication.gif",
-  "CommunicationMenu": [
-    "Logo/Identité graphique",
-    "Campagnes",
-    "Édition",
-    "Packaging"
+  "ilsnousConfiance": "They Trusted Us",
+  "logosClients": [
+    "images/logos/LogoAIN@3x.png",
+    "images/logos/logo nicolas.png",
+    "images/logos/logoorange.jpg",
+    "images/logos/dinor-logo.png",
+    "images/logos/logolacledeschateaux@3x.png",
+    "images/logos/logocraft.png",
+    "images/logos/logocastel@3x.png",
+    "images/logos/logosolibra@3x.png",
+    "images/logos/logocemoi.jpg",
+    "images/logos/logo-coca-cola.jpg",
+    "images/logos/logosania@3x.png"
   ],
   "person": {
     "id": 12345,

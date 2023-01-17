@@ -1,0 +1,26 @@
+{
+  "titrepage": "L'agence",
+  "presentation": "Nous sommes présent sur les continents Africain et Européen. Nous sommes capables d'intervenir dans de nombreux pays pour accompagner nos clients locaux et/ou internationaux, de la réflexion stratégique et commerciale à la production et à la diffusion de contenus, pour atteindre et fidéliser leur audience et les aider à développer leur business.",
+  "payscouverts": "Pays couverts : France, Côte d’Ivoire, Afrique du sud, République Démocratique du Congo, République du Congo, Mali, Sénégal, Guinée Conakry, Burkina Faso, Cameroun, Gabon, Angola, Ethiopie, Malawi, Madagascar, Maroc, Algérie…",
+  "offre": "L'offre",
+  "offreContenu": [
+    {
+      "titre": "Brand Content",
+      "contenu": "Créer l'interactivité avec son audience, savoir l'écouter, la comprendre, l'analyser pour pouvoir la surprendre et la fidéliser.",
+      "souscontenu": "Architecture de marque, analyse des tendances, stratégie de marque, brand content",
+      "illustration": "images/coeur.gif"
+    },
+    {
+      "titre": "Digital",
+      "contenu": "Construire la présence et la visibilité des marques sur les réseaux sociaux et tous les outils du numérique (site web, applicatif) et les accompagner dans l’usage et l’analyse.",
+      "souscontenu": "Stratégie Social média, E-commerce, Campagnes digitales, Formations & Coaching, SEO/SEA",
+      "illustration": "images/communication.gif"
+    },
+    {
+      "titre": "Brand Content",
+      "contenu": "Assurer le lien entre la marque et son public en imaginant des codes perennes et des stratégies de communication créatives et ciblées.",
+      "souscontenu": "Identité graphique, Campagnes TV/print, Édition, Packaging",
+      "illustration": "images/digital.gif"
+    }
+  ]
+}
