@@ -1,0 +1,44 @@
+{
+    "caseStudies": [
+      {
+        "client": "SAINT-AVÉ",
+        "pays": "Côte d'Ivoire",
+        "lien": "#",
+        "image": "images/caseStudies/stave/stave.jpg",
+        "galerie":[
+
+        ],
+        "alaune":"oui"
+      },
+      {
+        "client": "SoCITY",
+        "pays": "Côte d'Ivoire",
+        "lien": "#",
+        "image": "images/caseStudies/Socity/socity.jpg",
+        "galerie":[
+
+        ],
+        "alaune":"oui"
+      },
+      {
+        "client": "AÏNIFRANE",
+        "pays": "Maroc",
+        "lien": "#",
+        "image": "images/caseStudies/AInifrane/ainifrane.jpg",
+        "galerie":[
+
+        ],
+        "alaune":"oui"
+      },
+      {
+        "client": "VIRTUS FOOTBALL",
+        "pays": "Côte d'Ivoire",
+        "lien": "#",
+        "image": "images/caseStudies/Virtus/virtusfootball.jpg",
+        "galerie":[
+
+        ],
+        "alaune":"oui"
+      }
+    ]
+}

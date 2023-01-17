@@ -24,32 +24,6 @@
   "quisommesnous": "Nous sommes une agence de communication intégrée. Nous aidons nos clients à se différencier, grâce à des solutions créatives, technologiques, évolutives et sur-mesure.",
   "qsnBtn": "A propos de nous",
   "clientTitre":"Clients",
-  "caseStudies": [
-    {
-      "client": "SAINT-AVÉ",
-      "pays": "Côte d'Ivoire",
-      "lien": "#",
-      "image": "images/caseStudies/stave/stave.jpg"
-    },
-    {
-      "client": "SoCITY",
-      "pays": "Côte d'Ivoire",
-      "lien": "#",
-      "image": "images/caseStudies/Socity/socity.jpg"
-    },
-    {
-      "client": "AÏNIFRANE",
-      "pays": "Maroc",
-      "lien": "#",
-      "image": "images/caseStudies/AInifrane/ainifrane.jpg"
-    },
-    {
-      "client": "VIRTUS FOOTBALL",
-      "pays": "Côte d'Ivoire",
-      "lien": "#",
-      "image": "images/caseStudies/Virtus/virtusfootball.jpg"
-    }
-  ],
   "useCaseBtn": "tous les projets",
   "loffretitre": "L'offre",
   "offreBigFive": [

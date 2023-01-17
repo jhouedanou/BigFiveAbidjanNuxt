@@ -17,10 +17,11 @@
         </li>
       </ul>
     </div>
+
     <div id="contentwrapper2" class="container">
       <h3 class="titre">{{ homepage.clientTitre }}</h3>
       <div class="row">
-        <div class="col col-md-6 col-sm-12" v-for="client in homepage.caseStudies" :key="client.id">
+        <div class="col col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="client.lien">
               <img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan">
@@ -29,7 +30,7 @@
             </NuxtLink>
           </div>
         </div>
-        <NuxtLink id="aragon" class="lelink" to="">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink id="aragon" class="lelink" to="projets">{{ homepage.useCaseBtn }}</NuxtLink>
       </div>
     </div>
     <div id="contentwrapper3">
@@ -66,13 +67,24 @@
 </template>
 <script>
 export default {
+
+
+
   async asyncData({ $content, params, app, error }) {
     const homepage = await $content(app.i18n.locale, "homepage", params.slug)
       .fetch()
       .catch(() => {
         error({ statusCode: 404, message: 'Page not found' })
-      })
-    return { homepage };
+      });
+    const projets = await $content(app.i18n.locale, "projets", params.slug)
+      .fetch()
+      .catch(() => {
+        error({ statusCode: 404, message: 'Page not found' })
+      });
+    //n'afficher que les items où à la une est égale à "oui"
+    const caseStudies = projets.caseStudies.filter(study => study.alaune === "oui");
+    return { homepage, caseStudies };
+
   },
   data() {
     return {
@@ -80,6 +92,7 @@ export default {
       sliding: null
     }
   },
+
   methods: {
     onSlideStart(slide) {
       this.sliding = true
