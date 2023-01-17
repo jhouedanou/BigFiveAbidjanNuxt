@@ -8,7 +8,7 @@
     </b-carousel>
     <div id="contenwrapper1" class="container">
       <h2>{{ homepage.slogan }}</h2>
-      <h4>{{ homepage.soustitre }}</h4>
+      <h4 class="soustitre">{{ homepage.soustitre }}</h4>
       <p>{{ homepage.quisommesnous }}</p>
       <NuxtLink class="lelink" to="/agence">{{ homepage.qsnBtn }}</NuxtLink>
       <ul>

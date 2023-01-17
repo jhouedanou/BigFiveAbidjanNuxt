@@ -1,7 +1,7 @@
 <template>
   <div>
     <!-- header -->
-    <div id="header" :class="{ 'bgchange': scrolled }" class="d-flex justify-content-around">
+    <div id="header" class="bgchange d-flex justify-content-around">
       <button id="menuBtn" @click="toggleSidebar"><img src="~/assets/img/btnopen.svg" alt=""></button>
       <!-- logo -->
       <div id="logo">

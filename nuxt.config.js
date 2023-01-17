@@ -64,6 +64,17 @@ export default {
     'nuxt-i18n',
 
   ],
+  pwa: {
+    icon: {
+      /* icon options */
+    },
+    ogTitle:{
+
+    },
+    ogUrl:{
+
+    }
+  },
   i18n: {
     defaultLocale: 'fr',
     locales: [
