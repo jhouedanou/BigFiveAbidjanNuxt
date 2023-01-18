@@ -76,7 +76,7 @@
     },
     {
       "client": "SOCAVINS",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "titre": "Sous titre",
       "pays": "République du Congo",
       "image": "images/caseStudies/Socavins/socavins.jpg",
       "lien": "socavins",
@@ -86,7 +86,7 @@
     },
     {
       "client": "CRAFT BEER & CIE",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "titre": "Sous titre",
       "pays": "France",
       "image": "images/caseStudies/CraftBeer/craftbeer.jpg",
       "lien": "craftbeer",
@@ -96,7 +96,7 @@
     },
     {
       "client": "GROUPE CENTAURES",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "titre": "Sous titre",
       "pays": "Côte d'Ivoire",
       "image": "images/caseStudies/Centaures/centaures.jpg",
       "lien": "stark",

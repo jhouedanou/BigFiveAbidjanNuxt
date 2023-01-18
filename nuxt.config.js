@@ -13,10 +13,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-          {
-        rel: 'stylesheet',
-            href: 'https://use.typekit.net/wst2spk.css'
-      }
+      { rel: 'preload', href: 'https://use.typekit.net/wst2spk.css' },
+      {rel: 'stylesheet', href: 'https://use.typekit.net/wst2spk.css'}
     ]
   },
   script: [
