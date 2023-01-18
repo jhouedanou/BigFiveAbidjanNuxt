@@ -57,6 +57,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxt/image',
     // https://go.nuxtjs.dev/bootstrap
     'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/axios
@@ -77,6 +78,9 @@ export default {
       ogDescription:"Agence webmarketing à Abidjan",
 
 
+    },
+    image: {
+      // Options
     },
     manifest: {
       name: 'Big Five Abidjan',

@@ -24,7 +24,7 @@
         <div class="col col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="`/clients/${client.lien}`">
-              <img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan">
+              <nuxt-img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan" loading="lazy" format="webp" />
               <h4>{{ client.client }}</h4>
               <p>{{ client.pays }}</p>
             </NuxtLink>
@@ -41,7 +41,7 @@
         <div class="row">
           <div class="dev col-md-4 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
             <div class="imgewrapper">
-              <img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan"/>
+              <nuxt-img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan" width="84" loading="lazy" format="webp" />
             </div>
             <h4>{{ offreDetails.Titre }}</h4>
             <ul>
@@ -58,7 +58,7 @@
       <div id="capelo">
         <div id="innard">
           <div class="logoclen" v-for="logo in homepage.logosClients" :key="logo.id">
-            <img class="img-fluid" :src="logo" alt="">
+            <nuxt-img class="img-fluid" :src="logo" alt="social media à Abidjan" loading="lazy" format="webp" />
           </div>
         </div>
       </div>
