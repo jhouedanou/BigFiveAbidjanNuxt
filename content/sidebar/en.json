@@ -5,22 +5,22 @@
     {
       "name": "The Agency",
       "soustitre": "About us ",
-      "lien": "agence"
+      "lien": "/en/agence"
     },
     {
       "name": "Our Clients",
       "soustitre": "Our work",
-      "lien": "clients"
+      "lien": "/en/clients"
     },
     {
       "name": "Jobs",
       "soustitre": "We want you",
-      "lien": "jobs"
+      "lien": "/en/jobs"
     },
     {
       "name": "Contact",
       "soustitre": "Let's meet",
-      "lien": "contacts"
+      "lien": "/en/contacts"
     }
   ]
 }

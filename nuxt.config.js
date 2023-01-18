@@ -95,7 +95,8 @@ export default {
   },
   i18n: {
     defaultLocale: 'fr',
-    detectBrowserLanguage: {
+    detectBrowserLanguage: false,
+    /* detectBrowserLanguage: {
       alwaysRedirect: false,
       fallbackLocale: '',
       redirectOn: 'root',
@@ -105,7 +106,7 @@ export default {
       cookieDomain: null,
       cookieKey: 'i18n_redirected',
       cookieSecure: false,
-    },
+    }, */
     locales: [
       {
         code: 'fr',
