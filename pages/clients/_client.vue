@@ -11,8 +11,13 @@
       </div>
       <div class="container">
         <div class="textedescriptif" v-html="caseStudies[0].contenu"></div>
-        <img :src="`/${caseStudies[0].image}`" alt="">
+        <!-- <img :src="`/${caseStudies[0].image}`" alt=""> -->
+        <div class="galerie">
+          <div class="element" v-for="image in caseStudies[0].galerie" :key="image.id">
+            <img :src="`/${image}`" alt="Agence web à Abidjan" class="img-fluid">
 
+          </div>
+        </div>
       </div>
     </div>
   </div>

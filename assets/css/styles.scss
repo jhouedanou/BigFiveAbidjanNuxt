@@ -999,7 +999,9 @@ body {
   line-height: 18px;
   font-size: 9px;
 }
-
+#client{
+padding-bottom: 12em;
+}
 #clientswrapper1 {
   padding-top: 15em;
   padding-bottom: 12em;
@@ -1015,6 +1017,7 @@ body {
   background-size: cover;
   position: relative;
   background-position: 0% 50%;
+
   .cartouche {
     position: absolute;
     z-index: 2;
@@ -1026,22 +1029,26 @@ body {
     bottom: 0;
     left: 0;
     display: flex;
-    align-items:flex-start;justify-content: center;flex-direction: column;
-    background:rgba(0,0,0,.25);
-    h1{
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .25);
+
+    h1 {
       font-weight: 500;
-        font-family: brandon-grotesque, sans-serif;
-        color:white;
-        font-size:75px;
-        line-height: 84px;
+      font-family: brandon-grotesque, sans-serif;
+      color: white;
+      font-size: 75px;
+      line-height: 84px;
     }
-         h2 {
-           font-weight: 800;
-           font-family: brandon-grotesque, sans-serif;
-           color: white;
-           font-size:75px;
-           line-height: 84px;
-         }
+
+    h2 {
+      font-weight: 800;
+      font-family: brandon-grotesque, sans-serif;
+      color: white;
+      font-size: 75px;
+      line-height: 84px;
+    }
 
   }
 
@@ -1049,4 +1056,29 @@ body {
     -o-object-fit: cover;
     object-fit: cover;
   }
+}
+
+.textedescriptif {
+  padding-top: 5em;
+
+  h3 {
+    font-size: 34px;
+    line-height: 42px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: justify;
+  }
+
+  p {
+    font-size: 23px;
+    line-height: 40px;
+    font-family: brandon-grotesque, sans-serif;
+    font-weight: 100;
+    margin-bottom: 1em;
+    text-align: justify;
+
+  }
+}
+#clientswrapper1{
 }
