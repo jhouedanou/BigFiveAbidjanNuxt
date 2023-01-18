@@ -2,9 +2,7 @@
   <div id="clients">
     <div id="clientswrapper1">
       <div class="container">
-        <li v-for="projet in projets.caseStudies" :key="projet.id">
-          <NuxtLink :to="`/clients/${projet.lien}`">{{ projet.client }}</NuxtLink>
-        </li>
+        Page individuelle des projets
       </div>
     </div>
   </div>
@@ -13,13 +11,15 @@
 export default {
   layout: 'content',
   async asyncData({ $content, params, app, error }) {
+    //const url = this.$route.path;
     const projets = await $content(app.i18n.locale, "projets", params.slug)
       .fetch()
       .catch(() => {
         error({ statusCode: 404, message: 'Page not found' })
-      })
+      });
     return { projets };
   },
+
   data() {
     return {
     }
@@ -28,6 +28,8 @@ export default {
 
   },
   methods: {
+  },
+  created(){
 
   }
 };

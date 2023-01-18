@@ -29,13 +29,7 @@ export default {
 
   },
   methods: {
-    nomdelaclasse(index) {
-      if ((index) % 2 === 0) {
-        return 'normal';
-      } else {
-        return 'normalalt';
-      }
-    }
+
   }
 };
 </script>

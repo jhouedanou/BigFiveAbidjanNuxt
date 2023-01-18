@@ -91,6 +91,17 @@ export default {
   },
   i18n: {
     defaultLocale: 'fr',
+    detectBrowserLanguage: {
+      alwaysRedirect: false,
+      fallbackLocale: '',
+      redirectOn: 'root',
+      useCookie: true,
+      cookieAge: 365,
+      cookieCrossOrigin: false,
+      cookieDomain: null,
+      cookieKey: 'i18n_redirected',
+      cookieSecure: false,
+    },
     locales: [
       {
         code: 'fr',
