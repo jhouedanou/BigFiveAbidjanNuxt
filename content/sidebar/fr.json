@@ -5,22 +5,22 @@
     {
       "name": "L'agence",
       "soustitre": "A propos de nous",
-      "lien": "agence"
+      "lien": "/agence"
     },
     {
       "name": "Clients",
       "soustitre": "ce que nous faisons",
-      "lien": "projets"
+      "lien": "/clients"
     },
     {
       "name": "Jobs",
       "soustitre": "Rejoignez nous",
-      "lien": "jobs"
+      "lien": "/jobs"
     },
     {
       "name": "Contact",
       "soustitre": "Rencontrons nous",
-      "lien": "contacts"
+      "lien": "/contacts"
     }
   ]
 }

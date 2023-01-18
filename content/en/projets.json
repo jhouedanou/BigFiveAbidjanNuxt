@@ -1,28 +1,42 @@
 {
+  "titrePage": "Derniers projets",
+  "soustitre": "Nos clients",
   "caseStudies": [
     {
       "client": "SAINT-AVÉ",
+      "titre": "UNE CAMPAGNE AU TOP",
       "pays": "Côte d'Ivoire",
-        "lien": "stave",
-        "image": "images/caseStudies/stave/stave.jpg",
+      "lien": "stave",
+      "image": "images/caseStudies/stave/stave.jpg",
       "galerie": [],
-      "alaune": "oui"
+      "banniere": "images/caseStudies/stave/banniere.jpg",
+      "contenu": "<h3>Le challenge TOP PÂTISSIER fait rayonner Saint-Avé lors d’une campagne de recrutement sur les réseaux sociaux.</h3><p>&nbsp;</p><p>Destinée aux amateurs de pâtisserie, la compétition consistait à reproduire chaque semaine, pendant 8 semaines, une recette de pâtisserie à base de margarine Saint-Avé. Les participants devaient ensuite soumettre les photos de leurs créations aux votes des internautes sur Facebook. 7 lauréats se sont vus qualifiés pour la grande finale et ont remporté chacun un équipement de pâtisserie.</p><p>La grande gagnante élue “TOP PÂTISSIER Saint-Avé 2020” a remporté une semaine de formation en pâtisserie et un kit complet de matériel de cuisine.</p><p>&nbsp;</p><p>123 Participant(e)s</p><p>57.853 Votants</p><p>+14 567 nouveaux abonnées recrutés</p><p>665 121 personnes touchées par les publications</p><p>127 551 interactions avec les publications</p><p>19,2% de taux d'engagement</p>",
+      "alaune": "oui",
+      "dansleslider": "non"
     },
     {
       "client": "SoCITY",
       "pays": "Côte d'Ivoire",
+      "titre": "SOLIBRA AU PLUS PROCHE\nDE SES CONSOMMATEURS",
       "lien": "socity",
       "image": "images/caseStudies/Socity/socity.jpg",
       "galerie": [],
-      "alaune": "oui"
+      "banniere": "images/caseStudies/socity/banniere.jpg",
+      "contenu": "",
+      "alaune": "oui",
+      "dansleslider": "oui"
     },
     {
       "client": "AÏNIFRANE",
+      "titre": "VOUS N’AUREZ PLUS\nJAMAIS SOIF",
       "pays": "Maroc",
       "lien": "ainifrane",
       "image": "images/caseStudies/AInifrane/ainifrane.jpg",
       "galerie": [],
-      "alaune": "oui"
+      "banniere": "images/caseStudies/AInifrane/banniere.jpg",
+      "contenu": "",
+      "alaune": "oui",
+      "dansleslider": "oui"
     },
     {
       "client": "VIRTUS FOOTBALL",
@@ -31,6 +45,16 @@
       "image": "images/caseStudies/Virtus/virtusfootball.jpg",
       "galerie": [],
       "alaune": "oui"
+    },
+    {
+      "client": "STÄRK",
+      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "pays": "RDC",
+      "image": "images/caseStudies/stark/stark.jpg",
+      "lien": "stark",
+      "banniere": "images/caseStudies/stark/banniere.jpg",
+      "alaune": "oui",
+      "dansleslider": "oui"
     }
   ]
 }
