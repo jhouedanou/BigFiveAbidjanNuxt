@@ -2,7 +2,8 @@
   <div>
     <div id="prefooter">
       <h4>{{ $t('laisseznousunmessage') }}</h4>
-      <NuxtLink to="contacts">{{ $t('contactlabel') }}</NuxtLink>
+      <NuxtLink  v-if="$i18n.locale == 'en'" to="en/contacts">{{ $t('contactlabel') }}</NuxtLink>
+      <NuxtLink v-if="$i18n.locale == 'fr'" to="contacts">{{ $t('contactlabel') }}</NuxtLink>
     </div>
     <div id="footer">
       <div class="container d-flex flex-row justify-space-between align-items-center">

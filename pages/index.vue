@@ -1,6 +1,6 @@
 <template>
   <div id="accueil">
-    <b-carousel id="carousel-1" fade v-model="slide" interval="4000" controls indicators background="#FFF">
+    <b-carousel id="carousel-1" fade v-model="slide" :interval="4000" controls indicators background="#FFF">
       <b-carousel-slide v-for="slide in slides" :key="slide.id" :caption="slide.client" :text="slide.titre"
         :img-src="slide.banniere" alt="agence de marketing web à Abidjan">
         <NuxtLink :to="`/clients/${slide.lien}`">Voir le projet</NuxtLink>
@@ -10,8 +10,8 @@
       <h2>{{ homepage.slogan }}</h2>
       <h4 class="soustitre">{{ homepage.soustitre }}</h4>
       <p>{{ homepage.quisommesnous }}</p>
-      <NuxtLink class="lelink" to="/agence">{{ homepage.qsnBtn }}</NuxtLink>
-      <ul>
+      <NuxtLink  v-if="$i18n.locale == 'en'" class="lelink" to="en/agence">{{ homepage.qsnBtn }}</NuxtLink>
+      <NuxtLink v-if="$i18n.locale == 'fr'" class="lelink" to="agence">{{ homepage.qsnBtn }}</NuxtLink>      <ul>
         <li v-for="menu in homepage.CommunicationMenu" v-bind:key="menu.id">
           {{ menu }}
         </li>
@@ -30,7 +30,8 @@
             </NuxtLink>
           </div>
         </div>
-        <NuxtLink id="aragon" class="lelink" to="projets">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink  v-if="$i18n.locale == 'en'" id="aragon" class="lelink" to="en/projets">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink v-if="$i18n.locale == 'fr'" id="aragon" class="lelink" to="projets">{{ homepage.useCaseBtn }}</NuxtLink>
       </div>
     </div>
     <!-- projets à la une -->

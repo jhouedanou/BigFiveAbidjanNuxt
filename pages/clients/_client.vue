@@ -31,12 +31,6 @@
 
             </div>
           </div>
-
-          <!--   <b-carousel id="carousel-2" interval="4000" controls indicators background="#FFF">
-            <b-carousel-slide v-for="image in caseStudies[0].galerie" :key="image.id" :img-src="`/${image}`"
-              class="sogomansandji" alt="agence de marketing web à Abidjan">
-            </b-carousel-slide>
-          </b-carousel> -->
         </div>
       </div>
     </div>
