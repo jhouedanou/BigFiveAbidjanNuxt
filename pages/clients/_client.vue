@@ -12,11 +12,25 @@
       <div class="container">
         <div class="textedescriptif" v-html="caseStudies[0].contenu"></div>
         <!-- <img :src="`/${caseStudies[0].image}`" alt=""> -->
-        <div class="galerie">
-          <div class="element" v-for="image in caseStudies[0].galerie" :key="image.id">
+      </div>
+      <div id="espacevideo" v-if="caseStudies[0].video">
+        <div class="container">
+          {{ caseStudies[0].video }}
+          <iframe :src="caseStudies[0].video" width="640" height="360" frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="galerie">
+        <div class="container">
+          <!--  <div class="element" v-for="image in caseStudies[0].galerie" :key="image.id">
             <img :src="`/${image}`" alt="Agence web à Abidjan" class="img-fluid">
 
-          </div>
+          </div> -->
+          <b-carousel id="carousel-2" interval="4000" controls indicators background="#FFF">
+            <b-carousel-slide v-for="image in caseStudies[0].galerie" :key="image.id" :img-src="`/${image}`"
+              class="sogomansandji" alt="agence de marketing web à Abidjan">
+            </b-carousel-slide>
+          </b-carousel>
         </div>
       </div>
     </div>

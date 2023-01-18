@@ -1,6 +1,6 @@
 <template>
   <div id="accueil">
-    <b-carousel id="carousel-1" fade v-model="slide" :interval="4000" controls indicators background="#FFF">
+    <b-carousel id="carousel-1" fade v-model="slide" interval="4000" controls indicators background="#FFF">
       <b-carousel-slide v-for="slide in slides" :key="slide.id" :caption="slide.client" :text="slide.titre"
         :img-src="slide.banniere" alt="agence de marketing web à Abidjan">
         <NuxtLink :to="`/clients/${slide.lien}`">Voir le projet</NuxtLink>
