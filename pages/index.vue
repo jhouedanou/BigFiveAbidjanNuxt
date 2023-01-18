@@ -30,8 +30,8 @@
             </NuxtLink>
           </div>
         </div>
-        <NuxtLink  v-if="$i18n.locale == 'en'" id="aragon" class="lelink" to="en/projets">{{ homepage.useCaseBtn }}</NuxtLink>
-        <NuxtLink v-if="$i18n.locale == 'fr'" id="aragon" class="lelink" to="projets">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink  v-if="$i18n.locale == 'en'" id="aragon" class="lelink" to="en/clients">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink v-if="$i18n.locale == 'fr'" id="aragon" class="lelink" to="clients">{{ homepage.useCaseBtn }}</NuxtLink>
       </div>
     </div>
     <!-- projets à la une -->
