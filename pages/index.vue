@@ -41,7 +41,7 @@
         <div class="row">
           <div class="dev col-md-4 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
             <div class="imgewrapper">
-              <nuxt-img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan" width="84" loading="lazy" format="webp" />
+              <nuxt-img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan" width="84" loading="lazy" />
             </div>
             <h4>{{ offreDetails.Titre }}</h4>
             <ul>

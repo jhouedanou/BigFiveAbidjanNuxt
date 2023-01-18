@@ -25,6 +25,7 @@
   },
   "devDependencies": {
     "@nuxt/image": "^0.7.1",
+    "@nuxtjs/strapi": "^1.7.0",
     "nuxt-i18n": "^6.28.1",
     "sass": "^1.57.1"
   },
