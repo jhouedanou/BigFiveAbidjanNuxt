@@ -17,13 +17,13 @@
         </li>
       </ul>
     </div>
-
+<!-- intro -->
     <div id="contentwrapper2" class="container">
       <h3 class="titre">{{ homepage.clientTitre }}</h3>
       <div class="row">
         <div class="col col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
           <div class="innerbox">
-            <NuxtLink :to="client.lien">
+            <NuxtLink :to="`/clients/${client.lien}`">
               <img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan">
               <h4>{{ client.client }}</h4>
               <p>{{ client.pays }}</p>
@@ -33,12 +33,12 @@
         <NuxtLink id="aragon" class="lelink" to="projets">{{ homepage.useCaseBtn }}</NuxtLink>
       </div>
     </div>
+    <!-- projets à la une -->
     <div id="contentwrapper3">
       <div class="container">
         <h3 class="titre">{{ homepage.loffretitre }}</h3>
         <div class="row">
           <div class="dev col-md-4 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
-
             <div class="imgewrapper">
               <img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan"/>
             </div>
@@ -60,7 +60,6 @@
             <img class="img-fluid" :src="logo" alt="">
           </div>
         </div>
-
       </div>
     </div>
   </div>

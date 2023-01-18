@@ -990,7 +990,7 @@ body {
 }
 
 #villes {
-  margin-top:.251rem;
+  margin-top: .251rem;
   color: #FFF;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -999,10 +999,54 @@ body {
   line-height: 18px;
   font-size: 9px;
 }
+
 #clientswrapper1 {
   padding-top: 15em;
   padding-bottom: 12em;
 }
-#projectlist{
+
+#projectlist {
   padding-top: 5em;
+}
+
+.clientbanniere {
+  height: 770px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: 0% 50%;
+  .cartouche {
+    position: absolute;
+    z-index: 2;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin: auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items:flex-start;justify-content: center;flex-direction: column;
+    background:rgba(0,0,0,.25);
+    h1{
+      font-weight: 500;
+        font-family: brandon-grotesque, sans-serif;
+        color:white;
+        font-size:75px;
+        line-height: 84px;
+    }
+         h2 {
+           font-weight: 800;
+           font-family: brandon-grotesque, sans-serif;
+           color: white;
+           font-size:75px;
+           line-height: 84px;
+         }
+
+  }
+
+  img {
+    -o-object-fit: cover;
+    object-fit: cover;
+  }
 }
