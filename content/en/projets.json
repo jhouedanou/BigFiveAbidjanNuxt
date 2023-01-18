@@ -1,23 +1,23 @@
 {
-  "titrePage": "Derniers projets",
-  "soustitre": "Nos clients",
+  "titrePage": "Latest projects",
+  "soustitre": "Our clients",
   "caseStudies": [
     {
       "client": "SAINT-AVÉ",
-      "titre": "UNE CAMPAGNE AU TOP",
+      "titre": "TOP CAMPAIGN",
       "pays": "Côte d'Ivoire",
       "lien": "stave",
       "image": "images/caseStudies/stave/stave.jpg",
       "galerie": [],
       "banniere": "images/caseStudies/stave/banniere.jpg",
-      "contenu": "<h3>Le challenge TOP PÂTISSIER fait rayonner Saint-Avé lors d’une campagne de recrutement sur les réseaux sociaux.</h3><p>&nbsp;</p><p>Destinée aux amateurs de pâtisserie, la compétition consistait à reproduire chaque semaine, pendant 8 semaines, une recette de pâtisserie à base de margarine Saint-Avé. Les participants devaient ensuite soumettre les photos de leurs créations aux votes des internautes sur Facebook. 7 lauréats se sont vus qualifiés pour la grande finale et ont remporté chacun un équipement de pâtisserie.</p><p>La grande gagnante élue “TOP PÂTISSIER Saint-Avé 2020” a remporté une semaine de formation en pâtisserie et un kit complet de matériel de cuisine.</p><p>&nbsp;</p><p>123 Participant(e)s</p><p>57.853 Votants</p><p>+14 567 nouveaux abonnées recrutés</p><p>665 121 personnes touchées par les publications</p><p>127 551 interactions avec les publications</p><p>19,2% de taux d'engagement</p>",
+      "contenu": "<h3>The TOP PASTRY CHEF challenge makes Saint-Avé shine during a recruitment campaign on social media.</h3><p>&nbsp;</p><p>Intended for pastry enthusiasts, the competition consisted of reproducing each week, for 8 weeks, a pastry recipe based on Saint-Avé margarine. Participants then had to submit photos of their creations to the votes of internet users on Facebook. 7 winners were qualified for the grand finale and each won a pastry equipment.</p><p>The grand winner elected 'TOP PASTRY CHEF Saint-Avé 2020' won a week of pastry training and a complete kitchen equipment kit.</p><p>&nbsp;</p><p>123 Participants</p><p>57.853 Voters</p><p>+14 567 new subscribers recruited</p><p>665 121 people reached by publications</p><p>127 551 interactions with publications</p><p>19.2% engagement rate</p>",
       "alaune": "oui",
       "dansleslider": "non"
     },
     {
       "client": "SoCITY",
       "pays": "Côte d'Ivoire",
-      "titre": "SOLIBRA AU PLUS PROCHE\nDE SES CONSOMMATEURS",
+      "titre": "SSOLIBRA CLOSER\nTO ITS CONSUMERS",
       "lien": "socity",
       "image": "images/caseStudies/Socity/socity.jpg",
       "galerie": [],
@@ -28,7 +28,7 @@
     },
     {
       "client": "AÏNIFRANE",
-      "titre": "VOUS N’AUREZ PLUS\nJAMAIS SOIF",
+      "titre": "YOU WILL NEVER\nBE THIRSTY AGAIN",
       "pays": "Maroc",
       "lien": "ainifrane",
       "image": "images/caseStudies/AInifrane/ainifrane.jpg",
@@ -48,7 +48,7 @@
     },
     {
       "client": "STÄRK",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
+      "titre": "THE LOCAL\nINTERNATIONAL BEER",
       "pays": "RDC",
       "image": "images/caseStudies/stark/stark.jpg",
       "lien": "stark",
