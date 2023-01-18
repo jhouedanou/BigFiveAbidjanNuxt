@@ -13,7 +13,7 @@
       ],
       "banniere": "images/caseStudies/stave/banniere.jpg",
       "contenu": "<h3>Le challenge TOP PÂTISSIER fait rayonner Saint-Avé lors d’une campagne de recrutement sur les réseaux sociaux.</h3><p>Destinée aux amateurs de pâtisserie, la compétition consistait à reproduire chaque semaine, pendant 8 semaines, une recette de pâtisserie à base de margarine Saint-Avé. Les participants devaient ensuite soumettre les photos de leurs créations aux votes des internautes sur Facebook. 7 lauréats se sont vus qualifiés pour la grande finale et ont remporté chacun un équipement de pâtisserie.</p><p>La grande gagnante élue “TOP PÂTISSIER Saint-Avé 2020” a remporté une semaine de formation en pâtisserie et un kit complet de matériel de cuisine.</p><p>123 Participant(e)s</p><p>57.853 Votants</p><p>+14 567 nouveaux abonnées recrutés</p><p>665 121 personnes touchées par les publications</p><p>127 551 interactions avec les publications</p><p>19,2% de taux d'engagement</p>",
-      "video":"",
+      "video": "",
       "alaune": "oui",
       "dansleslider": "non"
     },
@@ -48,11 +48,12 @@
       "pays": "Maroc",
       "lien": "ainifrane",
       "image": "images/caseStudies/AInifrane/ainifrane.jpg",
-          "galerie": [
-            "images/caseStudies/Ainifrane/ainifranehomepage.jpg",
-            "images/caseStudies/Ainifrane/AinifraneLarroque.jpg",
-            "images/caseStudies/Ainifrane/ainifraneover.jpg",
-            "images/caseStudies/Ainifrane/conseils.jpg"],
+      "galerie": [
+        "images/caseStudies/Ainifrane/ainifranehomepage.jpg",
+        "images/caseStudies/Ainifrane/AinifraneLarroque.jpg",
+        "images/caseStudies/Ainifrane/ainifraneover.jpg",
+        "images/caseStudies/Ainifrane/conseils.jpg"
+      ],
       "banniere": "images/caseStudies/AInifrane/banniere.jpg",
       "contenu": "<h3>Big Five conçoit un site web de livraison d'eau minérale et d'huile d'olive à domicile pour le Groupe des Boissons du Maroc.</h3><p>Le Groupe des Boissons du Maroc propose la livraison à domicile et par abonnement de son emblématique eau minérale Aïn Ifrane, mais également d’autres marques d’eaux et d’huiles d’olive.</p><p>Dans ce contexte, Big Five a créé un site e-commerce visant à simplifier et à personnaliser la livraison à domicile pour les consommateurs. Le site permet notamment de programmer les livraisons et d’en définir la fréquence.</p><a target='_blank' href='www.ainifranchezvous.ma'>www.ainifranchezvous.ma</a></p>",
       "alaune": "oui",
@@ -60,12 +61,16 @@
     },
     {
       "client": "VIRTUS FOOTBALL",
+      "titre": "LA RÉVOLUTION SUR-MESURE",
       "pays": "France",
       "lien": "virtus",
       "image": "images/caseStudies/Virtus/virtusfootball.jpg",
-      "galerie": [],
+        "galerie": [
+          "images/caseStudies/Virtus/home.jpg",
+          "images/caseStudies/Virtus/club.jpg",
+          "images/caseStudies/Virtus/produit.jpg"        ],
       "banniere": "images/caseStudies/Virtus/banniere.jpg",
-      "contenu": "",
+      "contenu": "<h3>La start-up lyonnaise de protège-tibias thermoformables s’offre une vitrine e-commerce.</h3><p>Virtus Football, fabricant français d'équipements innovants pour le Sport, a confié à Big Five le soin de lui concocter un site e-commerce visant notamment à promouvoir son produit phare : Virtus SymbioFIT®.</p><p>Big Five a donc réalisé un site au design clair et graphique, s’inspirant du côté ludique et vintage des vignettes d’album de foot de notre enfance. Une manière de mettre en valeur les utilisateurs connus et reconnus que ce produit sur-mesure commence à collectionner.</p><a target='_blank' href='www.virtusfootball.com'>www.virtusfootball.com</a></p>",
       "alaune": "oui",
       "dansleslider": "non"
     },

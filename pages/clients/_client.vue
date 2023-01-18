@@ -22,15 +22,21 @@
       </div>
       <div class="galerie">
         <div class="container">
-          <!--  <div class="element" v-for="image in caseStudies[0].galerie" :key="image.id">
-            <img :src="`/${image}`" alt="Agence web à Abidjan" class="img-fluid">
+          <div class="row">
+            <div class="element col-md-6 col-sm-12" v-for="image in caseStudies[0].galerie" :key="image.id">
+              <div class="bruh m-4">
+                <img :src="`/${image}`" alt="Agence web à Abidjan" class="img-fluid" />
+              </div>
 
-          </div> -->
-          <b-carousel id="carousel-2" interval="4000" controls indicators background="#FFF">
+
+            </div>
+          </div>
+
+          <!--   <b-carousel id="carousel-2" interval="4000" controls indicators background="#FFF">
             <b-carousel-slide v-for="image in caseStudies[0].galerie" :key="image.id" :img-src="`/${image}`"
               class="sogomansandji" alt="agence de marketing web à Abidjan">
             </b-carousel-slide>
-          </b-carousel>
+          </b-carousel> -->
         </div>
       </div>
     </div>
@@ -56,7 +62,7 @@ export default {
       .catch(() => {
         error({ statusCode: 404, message: 'Page not found' })
       });
-    //constante
+    //constante pour recupérer l'url du projet
     const url = route.params.client;
     //n'afficher que les items où l'url est égale au slug de la page
     const caseStudies = projets.caseStudies.filter(study => study.lien === url);
@@ -73,6 +79,19 @@ export default {
   },
   created() {
 
-  }
+  },
+  /*   head() {
+      return {
+        title: this.caseStudies[0].client,
+        meta: [
+          // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+          {
+            hid: 'description',
+            name: 'description',
+            content: 'My custom description'
+          }
+        ]
+      }
+    } */
 };
 </script>

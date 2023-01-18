@@ -67,8 +67,6 @@
 <script>
 export default {
 
-
-
   async asyncData({ $content, params, app, error }) {
     const homepage = await $content(app.i18n.locale, "homepage", params.slug)
       .fetch()
@@ -91,7 +89,8 @@ export default {
   data() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      title:null
     }
   },
 
@@ -103,6 +102,5 @@ export default {
       this.sliding = false
     }
   }
-
 };
 </script>
