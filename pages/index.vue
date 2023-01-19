@@ -21,7 +21,7 @@
     <div id="contentwrapper2" class="container">
       <h3 class="titre">{{ homepage.clientTitre }}</h3>
       <div class="row">
-        <div class="col col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
+        <div class="col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="`/clients/${client.lien}`">
               <nuxt-img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan" loading="lazy" format="webp" />
@@ -56,10 +56,15 @@
     <div id="contentwrapper4">
       <h3>{{ homepage.ilsnousConfiance }}</h3>
       <div id="capelo">
-        <div id="innard">
+        <div id="innard" class="desktop">
           <div class="logoclen" v-for="logo in homepage.logosClients" :key="logo.id">
             <nuxt-img class="img-fluid" :src="logo" alt="social media à Abidjan" loading="lazy" format="webp" />
           </div>
+        </div>
+        <div id="innard" class="mobile lesecondslider">
+    <b-carousel id="carousel-2" v-model="logoslider" fade :interval="4000" controls background="#FFF">
+      <b-carousel-slide v-for="logo in homepage.logosClients" :key="logo.id" :img-src="logo" alt="agence de marketing web à Abidjan"></b-carousel-slide>
+    </b-carousel>
         </div>
       </div>
     </div>

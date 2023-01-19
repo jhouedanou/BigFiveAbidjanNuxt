@@ -26,7 +26,8 @@
                   <div id="phonewrapper">
                     <div class="d-flex align-items-center flex-row justify-content-end">
                       <div id="slector">
-                        {{ $t('numerodeTelephone') }}
+
+                        <p id="lephone">{{ $t('numerodeTelephone') }}</p>
                         <div id="lswitcher">
                           <div id="langselector">
                             <nuxt-link :to="switchLocalePath('en')">
