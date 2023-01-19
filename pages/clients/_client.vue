@@ -16,7 +16,7 @@
       <div id="espacevideo" v-if="caseStudies[0].video">
         <div class="container">
           {{ caseStudies[0].video }}
-          <iframe :src="caseStudies[0].video" width="640" height="360" frameborder="0"
+          <iframe :src="caseStudies[0].video" width="100%" height="360" frameborder="0"
             allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
         </div>
       </div>

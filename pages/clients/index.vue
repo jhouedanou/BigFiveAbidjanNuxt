@@ -8,7 +8,7 @@
           <div class="col-md-6 col-sm-12" v-for="projet in projets.caseStudies" :key="projet.id">
             <div class="innerbox">
               <NuxtLink :to="`/clients/${projet.lien}`">
-                <img :src="projet.image" class="img-fluid wabehi" alt="Agence social media à Abidjan">
+                <img :src="`/${projet.image}`" class="img-fluid wabehi" alt="Agence social media à Abidjan">
                 <h4>{{ projet.client }}</h4>
                 <p>{{ projet.pays }}</p>
               </NuxtLink>

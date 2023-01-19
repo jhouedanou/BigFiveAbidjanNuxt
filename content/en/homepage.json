@@ -1,24 +1,4 @@
 {
-  "slider": [
-    {
-      "client": "AïnIfranechezvous.ma",
-      "titre": "YOU WILL NEVER\nBE THIRSTY AGAIN",
-      "lien": "#",
-      "image": "images/banniereainifrane.jpg"
-    },
-    {
-      "client": "SoCity",
-      "titre": "SOLIBRA CLOSER\nTO ITS CONSUMERS",
-      "lien": "#",
-      "image": "images/bannieresocity.jpg"
-    },
-    {
-      "client": "STÄRK",
-      "titre": "THE LOCAL\nINTERNATIONAL BEER",
-      "lien": "#",
-      "image": "images/bannierestark.jpg"
-    }
-  ],
   "slogan": "Leave a mark",
   "soustitre": "Brand content / Digital / Communication",
   "quisommesnous": "We are an integrated communication agency. We help our clients stand out through creative, technological, evolving, and tailor-made solutions.",

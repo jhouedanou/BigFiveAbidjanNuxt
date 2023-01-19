@@ -19,5 +19,7 @@
   "facebook": "http://facebook.com/BigFiveParis",
   "linkedin": "https://www.linkedin.com/in/bigfiveparis/",
   "credits": "©BIGFIVE SOLUTIONS TOUS DROITS Réservés.",
-  "villes": "Paris  /  Abidjan  /  Cape Town"
+  "villes": "Paris  /  Abidjan  /  Cape Town",
+    "accesprive": "Accès privé",
+    "accespriveurl":"https://backendbfa.onrender.com/"
 }

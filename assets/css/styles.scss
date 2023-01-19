@@ -1151,6 +1151,46 @@ body {
 }
 
 @media screen and (max-width:1024px) {
+  #marathon{
+
+  }
+  #prefooter{
+    h4{
+      font-size: 1em !important;
+    }
+  }
+  .clientbanniere{
+    height:440px;
+    background-position:center center;
+  }
+  .textedescriptif{
+    h3{font-size: 1.75em !important;
+          white-space: normal !important;
+          line-height: 1.6em;
+    }
+  }
+  .cartouche {
+    padding:4em 1em 1em 1em;
+    h1 {
+      white-space: normal !important;
+        font-size: 2em !important;
+        line-height: 1.2em !important;
+        text-align:center !important;
+    }
+
+    h2 {
+      white-space: normal !important;
+        font-size: 2em !important;
+        line-height: 1.2em !important;
+        text-align:center !important;
+    }
+  }
+
+  #agencewrapper3 {
+    * {
+      white-space: normal !important;
+    }
+  }
 
   .normalalt,
   .normal {
@@ -1171,27 +1211,31 @@ body {
       order: 2 !important;
     }
   }
-#agencewrapper2{
-  .infoOffre{
-    h4{
-      font-size: 35px;
-      text-align: center;
-    }
-    p{
+
+  #agencewrapper2 {
+    .infoOffre {
+      h4 {
+        font-size: 35px;
+        text-align: center;
+      }
+
+      p {
         margin-top: 25px !important;
-          font-size: 1.5em !important;
-          white-space: normal !important;
-          line-height: 1.6em;
-          text-align: justify !important;
-    }
-    span{
         font-size: 1.5em !important;
-          white-space: normal !important;
-          line-height: 1.6em;
-          text-align: justify !important;
+        white-space: normal !important;
+        line-height: 1.6em;
+        text-align: justify !important;
+      }
+
+      span {
+        font-size: 1.5em !important;
+        white-space: normal !important;
+        line-height: 1.6em;
+        text-align: justify !important;
+      }
     }
   }
-}
+
   .input-control {
     margin: 10px;
   }
@@ -1462,6 +1506,19 @@ body {
         min-height: 75vh !important;
         margin-top: 0 !important
       }
+    }
+  }
+}
+#sousfooter{
+  background:black;
+  .col-md-6{
+    a{
+text-align: left;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: brandon-grotesque, sans-serif;
+  line-height: 24px;
+  font-size: 14px;
     }
   }
 }

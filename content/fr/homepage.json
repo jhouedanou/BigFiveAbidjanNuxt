@@ -1,24 +1,4 @@
 {
-  "slider": [
-    {
-      "client": "AïnIfranechezvous.ma",
-      "titre": "VOUS N’AUREZ PLUS\nJAMAIS SOIF",
-      "lien": "#",
-      "image": "images/banniereainifrane.jpg"
-    },
-    {
-      "client": "SoCity",
-      "titre": "SOLIBRA AU PLUS PROCHE\nDE SES CONSOMMATEURS",
-      "lien": "#",
-      "image": "images/bannieresocity.jpg"
-    },
-    {
-      "client": "STÄRK",
-      "titre": "LA BIÈRE LOCALE\nINTERNATIONALE",
-      "lien": "#",
-      "image": "images/bannierestark.jpg"
-    }
-  ],
   "slogan": "Laissez votre empreinte",
   "soustitre": "Brand content / Digital / Communication",
   "quisommesnous": "Nous sommes une agence de communication intégrée. Nous aidons nos clients à se différencier, grâce à des solutions créatives, technologiques, évolutives et sur-mesure.",
