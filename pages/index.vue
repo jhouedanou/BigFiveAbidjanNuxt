@@ -10,28 +10,32 @@
       <h2>{{ homepage.slogan }}</h2>
       <h4 class="soustitre">{{ homepage.soustitre }}</h4>
       <p>{{ homepage.quisommesnous }}</p>
-      <NuxtLink  v-if="$i18n.locale == 'en'" class="lelink" to="en/agence">{{ homepage.qsnBtn }}</NuxtLink>
-      <NuxtLink v-if="$i18n.locale == 'fr'" class="lelink" to="agence">{{ homepage.qsnBtn }}</NuxtLink>      <ul>
+      <NuxtLink v-if="$i18n.locale == 'en'" class="lelink" to="en/agence">{{ homepage.qsnBtn }}</NuxtLink>
+      <NuxtLink v-if="$i18n.locale == 'fr'" class="lelink" to="agence">{{ homepage.qsnBtn }}</NuxtLink>
+      <ul>
         <li v-for="menu in homepage.CommunicationMenu" v-bind:key="menu.id">
           {{ menu }}
         </li>
       </ul>
     </div>
-<!-- intro -->
+    <!-- intro -->
     <div id="contentwrapper2" class="container">
       <h3 class="titre">{{ homepage.clientTitre }}</h3>
       <div class="row">
         <div class="col-md-6 col-sm-12" v-for="client in  caseStudies" :key="client.id">
           <div class="innerbox">
             <NuxtLink :to="`/clients/${client.lien}`">
-              <nuxt-img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan" loading="lazy" format="webp" />
+              <nuxt-img :src="client.image" class="img-fluid wabehi" alt="Agence social media à Abidjan" loading="lazy"
+                format="webp" />
               <h4>{{ client.client }}</h4>
               <p>{{ client.pays }}</p>
             </NuxtLink>
           </div>
         </div>
-        <NuxtLink  v-if="$i18n.locale == 'en'" id="aragon" class="lelink" to="en/clients">{{ homepage.useCaseBtn }}</NuxtLink>
-        <NuxtLink v-if="$i18n.locale == 'fr'" id="aragon" class="lelink" to="clients">{{ homepage.useCaseBtn }}</NuxtLink>
+        <NuxtLink v-if="$i18n.locale == 'en'" id="aragon" class="lelink" to="en/clients">{{ homepage.useCaseBtn }}
+        </NuxtLink>
+        <NuxtLink v-if="$i18n.locale == 'fr'" id="aragon" class="lelink" to="clients">{{ homepage.useCaseBtn }}
+        </NuxtLink>
       </div>
     </div>
     <!-- projets à la une -->
@@ -41,7 +45,8 @@
         <div class="row">
           <div class="dev col-md-4 col-sm-12" v-for="offreDetails in homepage.offreBigFive" :key="offreDetails.id">
             <div class="imgewrapper">
-              <nuxt-img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan" width="84" loading="lazy" />
+              <nuxt-img class="img-fluid" :src="offreDetails.Icone" alt="Agence web à Abidjan" width="84"
+                loading="lazy" />
             </div>
             <h4>{{ offreDetails.Titre }}</h4>
             <ul>
@@ -61,10 +66,11 @@
             <nuxt-img class="img-fluid" :src="logo" alt="social media à Abidjan" loading="lazy" format="webp" />
           </div>
         </div>
-        <div id="innard" class="mobile lesecondslider">
-    <b-carousel id="carousel-2" v-model="logoslider" fade :interval="4000" controls background="#FFF">
-      <b-carousel-slide v-for="logo in homepage.logosClients" :key="logo.id" :img-src="logo" alt="agence de marketing web à Abidjan"></b-carousel-slide>
-    </b-carousel>
+        <div id="innard" class="mobile ">
+          <b-carousel id="carousel-2" v-model="logoslider" :interval="4000" controls background="#FFF">
+            <b-carousel-slide v-for="logo in homepage.logosClients" :key="logo.id" :img-src="logo"
+              alt="agence de marketing web à Abidjan"></b-carousel-slide>
+          </b-carousel>
         </div>
       </div>
     </div>
@@ -89,14 +95,14 @@ export default {
     //recupérer les elements du slider
 
     const slides = projets.caseStudies.filter(study => study.dansleslider === "oui");
-    return { homepage, caseStudies , slides};
+    return { homepage, caseStudies, slides };
 
   },
   data() {
     return {
       slide: 0,
       sliding: null,
-      title:null
+      title: null
     }
   },
 
