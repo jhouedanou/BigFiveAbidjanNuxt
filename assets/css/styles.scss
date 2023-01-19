@@ -7,7 +7,9 @@
       text-decoration: none;
     }
   }
-}/*
+}
+
+/*
     .carousel-item {
       width: 100vw !important;
       text-align: center !important;
@@ -1149,37 +1151,73 @@ body {
 }
 
 @media screen and (max-width:1024px) {
-  #footer{
+  .input-control {
+    margin: 10px;
+  }
+#pageOverlay{
+  #menuBtn{
+    z-index:150 !important;
+  }
+}
+  #header {
+    #logo {
+      img {
+        height: auto !important;
+        width: auto !important;
+      }
+    }
+
+    .bgchange {}
+  }
+
+  #contactwrapper1 {
+    padding: 7.5em 0 5em !important;
+
+    .row {
+      &:nth-of-type(2) {
+        margin-top: 0px;
+      }
+    }
+  }
+
+  #footer {
     min-height: 302px;
-    height:auto;
-    padding:1em 0;
-    h6{
+    height: auto;
+    padding: 1em 0;
+
+    h6 {
       margin-top: 2em;
       margin-bottom: 1em;
     }
-        .wrapperf{
-          justify-content: center;
-          align-items:center;
-        }
-        .bloc, p {
-          text-align: center !important;
-        }
+
+    .wrapperf {
+      justify-content: center;
+      align-items: center;
+    }
+
+    .bloc,
+    p {
+      text-align: center !important;
+    }
   }
-  #slector{
-display: flex;
-  align-items: center;
-  justify-content: center;
+
+  #slector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
   }
-  #phonewrapper{
-    img{
+
+  #phonewrapper {
+    img {
       max-width: 25px;
     }
   }
 
-#innard {
+  #innard {
     margin: 0 auto 0 auto !important;
-   }
+  }
+
   .desktop {
     height: 0;
     filter: alpha(opacity=0);
@@ -1221,9 +1259,10 @@ display: flex;
     }
 
     p {
-      margin-top: 25px !important;
-      font-size: 2em !important;
+    margin-top: 25px !important;
+      font-size: 1.5em !important;
       white-space: normal !important;
+      line-height: 1.6em;
     }
   }
 
@@ -1260,23 +1299,27 @@ display: flex;
       line-height: 3em !important;
     }
   }
-#contentwrapper4{
-  .carousel-item{
-    width:100vw !important;
-    text-align: center !important;
-    text-align: center;
-    padding:1em 0 4em !important;
+
+  #contentwrapper4 {
+    .carousel-item {
+      width: 100vw !important;
+      text-align: center !important;
+      text-align: center;
+      padding: 1em 0 4em !important;
+    }
+
+    img {
+      height: 60px !important;
+      width: auto !important;
+      margin: 0 auto !important;
+    }
+
+    .lesecondslider {
+      margin: 1em auto 2em !important;
+      justify-content: center !important;
+    }
   }
-  img{
-    height: 60px !important;
-    width:auto !important;
-    margin:0 auto !important;
-  }
-  .lesecondslider{
-        margin: 1em auto 2em !important;
-        justify-content: center !important;
-  }
-}
+
   .sous-titre,
   .soustitre {
     @include soustitre();
@@ -1284,14 +1327,19 @@ display: flex;
   }
 
   .texte {
-    @include texte();
-    font-size: 2em !important;
-    white-space: normal !important;
+
+  margin-top: 25px !important;
+  font-size: 1.5em !important;
+  white-space: normal !important;
+  line-height: 1.6em;
+  text-align: justify !important;
   }
 
   .soustexte {
-    @include soustexte();
-    font-size: 1em !important;
+    font-size: 1.5em !important;
+    white-space: normal !important;
+    line-height: 1.6em;
+    text-align: justify !important;
   }
 
   #lephone {

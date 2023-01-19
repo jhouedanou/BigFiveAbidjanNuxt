@@ -67,7 +67,7 @@
           </div>
         </div>
         <div id="innard" class="mobile ">
-          <b-carousel id="carousel-2" v-model="logoslider" :interval="4000" controls background="#FFF">
+          <b-carousel id="carousel-2" :interval="4000" controls background="#FFF">
             <b-carousel-slide v-for="logo in homepage.logosClients" :key="logo.id" :img-src="logo"
               alt="agence de marketing web à Abidjan"></b-carousel-slide>
           </b-carousel>
